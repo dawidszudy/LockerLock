@@ -15,14 +15,14 @@ public class FrameLock extends JFrame {
         setLocation(400, 200);
 
         resultCode = new JLabel("", JLabel.RIGHT);
-        resultCode.setPreferredSize(new Dimension(0, 70));  //rozmiar okienka
-        Font fontLabel = resultCode.getFont();                                  //stworzenie czcionki
-        resultCode.setFont(new Font(fontLabel.getName(), Font.PLAIN, 40));  //rozmiar czcionki
+        resultCode.setPreferredSize(new Dimension(0, 70));
+        Font fontLabel = resultCode.getFont();
+        resultCode.setFont(new Font(fontLabel.getName(), Font.PLAIN, 40));
 
         resultLock = new JLabel("unlocked", JLabel.RIGHT);
-        resultLock.setPreferredSize(new Dimension(0, 70));  //rozmiar okienka
-        resultLock.getFont();                                  //stworzenie czcionki
-        resultLock.setFont(new Font(fontLabel.getName(), Font.PLAIN, 40));  //rozmiar czcionki
+        resultLock.setPreferredSize(new Dimension(0, 70));
+        resultLock.getFont();
+        resultLock.setFont(new Font(fontLabel.getName(), Font.PLAIN, 40));
 
         JPanel panel = new JPanel();
 
